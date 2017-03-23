@@ -4,8 +4,10 @@
 
 package protobuf
 
-import proto "code.google.com/p/goprotobuf/proto"
-import math "math"
+import (
+	math "math"
+	"github.com/golang/protobuf/proto"
+)
 
 // discarding unused import gogoproto "code.google.com/p/gogoprotobuf/gogoproto/gogo.pb"
 
